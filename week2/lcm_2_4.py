@@ -28,11 +28,3 @@ if __name__ == '__main__':
     a, b = map(int, input.split())
     print(lcm_optimal(a, b))
 
-#Input:
-#226553150 1023473145
-
-#Your output:
-#46374212988031352
-
-#Correct output:
-#46374212988031350
