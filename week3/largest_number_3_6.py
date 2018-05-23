@@ -12,7 +12,7 @@ def custom_compare(x, y):
 
 
 def largest_number(a):
-    # sort a list to form a largest number
+    # arrange a list of numbers to form a largest number
     a.sort(cmp=custom_compare, reverse=True)
     return ''.join(a)
 
