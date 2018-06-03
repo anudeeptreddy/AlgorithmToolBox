@@ -16,6 +16,9 @@ def get_majority_element(a, left, right):
     if left > right: return -1
     if left == right: return a[left]
 
+    # if a sequence of length n contains a majority element,
+    # then the same element is also a majority element for one of its halves.
+    # hence, Divide and conquer 
     mid = left + (right - left)//2
 
     left_me = get_majority_element(a, left, mid)
